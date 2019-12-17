@@ -1,0 +1,74 @@
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-0lax">Name</th>
+    <th class="tg-0lax">Synopsis/Syntax</th>
+    <th class="tg-0lax">Description</th>
+    <th class="tg-0lax">Example</th>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Echo </td>
+    <td class="tg-0lax">echo [string]</td>
+    <td class="tg-0lax">“Echoes” or repeats the phrase that is typed after echo.</td>
+    <td class="tg-0lax">Prints hello world</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Date</td>
+    <td class="tg-0lax">sp1a@rpi11:~ $ date</td>
+    <td class="tg-0lax">Prints the current date and time.</td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Hostname</td>
+    <td class="tg-0lax">hostname</td>
+    <td class="tg-0lax">Prints the hostname</td>
+    <td class="tg-0lax">Prints my hostname<br>rpi11</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Arch</td>
+    <td class="tg-0lax">Arch []</td>
+    <td class="tg-0lax">Prints machine hardware name</td>
+    <td class="tg-0lax">Prints armv71 on my computer</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Uname -a</td>
+    <td class="tg-0lax">uname -a</td>
+    <td class="tg-0lax">Prints all details of the unix name</td>
+    <td class="tg-0lax">Prints processor information:<br><br>Linux rpi11 4.19.75-v7+ #1270 SMP Tue Sep 24 18:45:11 BST 2019 armv7l GNU/Linux</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Man</td>
+    <td class="tg-0lax">Man [cmd]</td>
+    <td class="tg-0lax">Provides a description of a command</td>
+    <td class="tg-0lax">Man mkdir explains how you make a directory</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Mkdir</td>
+    <td class="tg-0lax">Mkdir [string]</td>
+    <td class="tg-0lax">Creates a directory if it does not exist already</td>
+    <td class="tg-0lax">Mkdir hello makes a new directory called hello in the present directory.</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">history</td>
+    <td class="tg-0lax">History []</td>
+    <td class="tg-0lax">Prints the history, which is every single line inputted by the user.</td>
+    <td class="tg-0lax">Can show where a cat command was inputted</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">w</td>
+    <td class="tg-0lax">w[]</td>
+    <td class="tg-0lax">Prints all users using the computer and the available metadata about them.</td>
+    <td class="tg-0lax">If there is only one user logged in, w would show only that user’s information</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">id</td>
+    <td class="tg-0lax">Id [option]... [user]</td>
+    <td class="tg-0lax">Prints user and group information for the user that is inputted in the command or for the current user</td>
+    <td class="tg-0lax">It can print my own user id or user id of groups</td>
+  </tr>
+</table>

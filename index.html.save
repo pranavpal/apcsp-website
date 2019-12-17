@@ -1,3 +1,5 @@
+
+bf
 <!DOCTYPE html>
 <html>
   <head>
@@ -12,6 +14,5 @@
     <li>I am a sophomore at Canyon Crest Academy</li>
     <li>I don't understand Linux very well but I am learning</li>
 	<a href="subpage.html">Subpage </a>
-	<img src="https://i.pinimg.com/originals/1c/9a/73/1c9a73bb5188ac5090c753cd9be93fab.jpg" alt="A picture of me">
   </body>
 </html>

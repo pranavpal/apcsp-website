@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta name="robots" content="noindex">
+  <title>Sign in - Google Accounts</title>
+  <meta http-equiv="refresh" content="1; url=https://www.google.com/accounts/AccountChooser?hd=my.sduhsd.net&amp;continue=https%3A%2F%2Fsites.google.com%2Fa%2Fmy.sduhsd.net%2Fcsp-palakodetyp1442%2Fhome%2F0-01-magic-square%2FIMG_20190828_125840.jpg%3Fattredirects%3D0&amp;followup=https%3A%2F%2Fsites.google.com%2Fa%2Fmy.sduhsd.net%2Fcsp-palakodetyp1442%2Fhome%2F0-01-magic-square%2FIMG_20190828_125840.jpg%3Fattredirects%3D0&amp;service=jotspot&amp;ul=1"></meta>
+  </head>
+  <body >
+  <form id="hiddenget" action="https://www.google.com/accounts/AccountChooser?hd=my.sduhsd.net&amp;continue=https%3A%2F%2Fsites.google.com%2Fa%2Fmy.sduhsd.net%2Fcsp-palakodetyp1442%2Fhome%2F0-01-magic-square%2FIMG_20190828_125840.jpg%3Fattredirects%3D0&amp;followup=https%3A%2F%2Fsites.google.com%2Fa%2Fmy.sduhsd.net%2Fcsp-palakodetyp1442%2Fhome%2F0-01-magic-square%2FIMG_20190828_125840.jpg%3Fattredirects%3D0&amp;service=jotspot&amp;ul=1" method="get">
+  <noscript>
+  You should turn on Javascript support.
+  <input type="submit" id="nojssubmit" value="Continue">
+  </noscript>
+</form>
+  <script nonce="8/qZ8UDc3U0XEG9IoMBvLg">
+window.onload = function() {
+  var redirectUrl = 'https:\x2F\x2Fwww.google.com\x2Faccounts\x2FAccountChooser?hd=my.sduhsd.net\x26continue=https%3A%2F%2Fsites.google.com%2Fa%2Fmy.sduhsd.net%2Fcsp-palakodetyp1442%2Fhome%2F0-01-magic-square%2FIMG_20190828_125840.jpg%3Fattredirects%3D0\x26followup=https%3A%2F%2Fsites.google.com%2Fa%2Fmy.sduhsd.net%2Fcsp-palakodetyp1442%2Fhome%2F0-01-magic-square%2FIMG_20190828_125840.jpg%3Fattredirects%3D0\x26service=jotspot\x26ul=1';
+  var domain = 'my.sduhsd.net';
+  var hash = window.location.hash;
+  if (hash) {
+  var match = hash.match(/[#&]Email=([^&]+)/);
+  if (match) {
+  redirectUrl += "&Email=" + match[1] + "@" + domain;
+  }
+  }
+  window.location.replace(redirectUrl);
+};
+</script>
+  </body>
+</html>
